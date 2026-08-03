@@ -1,0 +1,14 @@
+ Loading model...
+Preparing data for expanded tickers...
+Downloading data...
+Data ready: 98 tickers, 1826 business days.
+Total trading days: 1805
+
+--- Zero-Shot Backtest with Risk Budget (30% cap) ---
+Total Return: 173.43%
+Sharpe Ratio: 1.146
+Sortino Ratio: 1.422
+Max Drawdown: -26.00%
+Profit Factor: 1.23
+Average Daily Turnover: 3.74%
+Results saved to hive_results.csv and hive_zeroshot.png

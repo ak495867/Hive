@@ -1,0 +1,5 @@
+model/hive_model.pt
+# umm this hive_model.pt is the trained model for the hive project
+# it is still in the research phase, so it is not yet ready for oss release
+# Please do not use it for any production purposes
+# It is provided here for research and educational purposes only

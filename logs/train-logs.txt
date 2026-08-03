@@ -1,0 +1,120 @@
+Downloading and preparing multi‑asset volatility data...
+Common dates: 1493 days
+Total trading days: 1472
+Assets: 6, Lookback: 20, Features: 4
+Total parameters: 5,310
+Epoch   1 | Train Loss: 0.1219 | Val Sharpe: -0.547
+  -> Best model saved.
+Epoch   2 | Train Loss: 0.0485 | Val Sharpe: -0.529
+  -> Best model saved.
+Epoch   3 | Train Loss: -0.0910 | Val Sharpe: -0.530
+Epoch   4 | Train Loss: 0.1057 | Val Sharpe: -0.546
+Epoch   5 | Train Loss: -0.0573 | Val Sharpe: -0.543
+Epoch   6 | Train Loss: -0.0664 | Val Sharpe: -0.544
+Epoch   7 | Train Loss: 0.0462 | Val Sharpe: -0.567
+Epoch   8 | Train Loss: 0.0059 | Val Sharpe: -0.583
+Epoch   9 | Train Loss: 0.0849 | Val Sharpe: -0.617
+Epoch  10 | Train Loss: -0.1744 | Val Sharpe: -0.780
+Epoch  11 | Train Loss: -0.0899 | Val Sharpe: -0.867
+Epoch  12 | Train Loss: -0.1764 | Val Sharpe: -0.977
+Epoch  13 | Train Loss: -0.3227 | Val Sharpe: -0.978
+Epoch  14 | Train Loss: -0.2198 | Val Sharpe: -0.772
+Epoch  15 | Train Loss: -0.4773 | Val Sharpe: -0.929
+Epoch  16 | Train Loss: -0.2822 | Val Sharpe: -0.883
+Epoch  17 | Train Loss: -0.3298 | Val Sharpe: -0.695
+Epoch  18 | Train Loss: -0.3448 | Val Sharpe: -0.734
+Epoch  19 | Train Loss: -0.5790 | Val Sharpe: -0.826
+Epoch  20 | Train Loss: -0.6516 | Val Sharpe: -0.777
+Epoch  21 | Train Loss: -0.7131 | Val Sharpe: -0.822
+Epoch  22 | Train Loss: -0.7334 | Val Sharpe: -0.894
+Epoch  23 | Train Loss: -0.6951 | Val Sharpe: -1.056
+Epoch  24 | Train Loss: -0.5672 | Val Sharpe: -1.081
+Epoch  25 | Train Loss: -0.7848 | Val Sharpe: -1.019
+Epoch  26 | Train Loss: -0.5643 | Val Sharpe: -1.080
+Epoch  27 | Train Loss: -0.6140 | Val Sharpe: -1.052
+Epoch  28 | Train Loss: -0.7899 | Val Sharpe: -1.093
+Epoch  29 | Train Loss: -0.8977 | Val Sharpe: -1.131
+Epoch  30 | Train Loss: -0.8008 | Val Sharpe: -1.125
+Epoch  31 | Train Loss: -1.1397 | Val Sharpe: -1.217
+Epoch  32 | Train Loss: -1.0089 | Val Sharpe: -1.104
+Epoch  33 | Train Loss: -1.1422 | Val Sharpe: -1.063
+Epoch  34 | Train Loss: -1.2738 | Val Sharpe: -0.843
+Epoch  35 | Train Loss: -1.4556 | Val Sharpe: -0.744
+Epoch  36 | Train Loss: -1.6449 | Val Sharpe: -0.686
+Epoch  37 | Train Loss: -1.6138 | Val Sharpe: -0.499
+  -> Best model saved.
+Epoch  38 | Train Loss: -1.7848 | Val Sharpe: -0.589
+Epoch  39 | Train Loss: -1.8998 | Val Sharpe: -0.195
+  -> Best model saved.
+Epoch  40 | Train Loss: -1.8157 | Val Sharpe: -0.588
+Epoch  41 | Train Loss: -1.8295 | Val Sharpe: -0.409
+Epoch  42 | Train Loss: -1.9013 | Val Sharpe: -0.131
+  -> Best model saved.
+Epoch  43 | Train Loss: -1.7744 | Val Sharpe: 0.096
+  -> Best model saved.
+Epoch  44 | Train Loss: -1.9899 | Val Sharpe: 0.221
+  -> Best model saved.
+Epoch  45 | Train Loss: -1.9934 | Val Sharpe: -0.260
+Epoch  46 | Train Loss: -1.9841 | Val Sharpe: -0.267
+Epoch  47 | Train Loss: -2.0488 | Val Sharpe: -0.020
+Epoch  48 | Train Loss: -2.0198 | Val Sharpe: 0.292
+  -> Best model saved.
+Epoch  49 | Train Loss: -2.0117 | Val Sharpe: -1.014
+Epoch  50 | Train Loss: -2.0762 | Val Sharpe: -0.752
+Epoch  51 | Train Loss: -2.1776 | Val Sharpe: -0.315
+Epoch  52 | Train Loss: -2.3388 | Val Sharpe: -0.184
+Epoch  53 | Train Loss: -2.2490 | Val Sharpe: -0.500
+Epoch  54 | Train Loss: -2.2752 | Val Sharpe: 0.483
+  -> Best model saved.
+Epoch  55 | Train Loss: -2.0885 | Val Sharpe: 0.611
+  -> Best model saved.
+Epoch  56 | Train Loss: -2.2891 | Val Sharpe: -0.395
+Epoch  57 | Train Loss: -2.0104 | Val Sharpe: -0.233
+Epoch  58 | Train Loss: -2.1406 | Val Sharpe: -0.671
+Epoch  59 | Train Loss: -2.2548 | Val Sharpe: -0.171
+Epoch  60 | Train Loss: -2.3346 | Val Sharpe: -0.580
+Epoch  61 | Train Loss: -2.1398 | Val Sharpe: -0.030
+Epoch  62 | Train Loss: -2.1277 | Val Sharpe: 0.362
+Epoch  63 | Train Loss: -2.1711 | Val Sharpe: -0.160
+Epoch  64 | Train Loss: -2.3209 | Val Sharpe: -0.424
+Epoch  65 | Train Loss: -2.5594 | Val Sharpe: -0.086
+Epoch  66 | Train Loss: -2.3625 | Val Sharpe: 0.358
+Epoch  67 | Train Loss: -2.3686 | Val Sharpe: 0.489
+Epoch  68 | Train Loss: -2.1871 | Val Sharpe: 0.613
+  -> Best model saved.
+Epoch  69 | Train Loss: -2.4951 | Val Sharpe: -0.393
+Epoch  70 | Train Loss: -2.7376 | Val Sharpe: -0.064
+Epoch  71 | Train Loss: -2.6116 | Val Sharpe: 0.312
+Epoch  72 | Train Loss: -2.4807 | Val Sharpe: 0.440
+Epoch  73 | Train Loss: -2.6998 | Val Sharpe: -0.255
+Epoch  74 | Train Loss: -2.5516 | Val Sharpe: -0.057
+Epoch  75 | Train Loss: -2.6464 | Val Sharpe: -0.227
+Epoch  76 | Train Loss: -2.8752 | Val Sharpe: 0.224
+Epoch  77 | Train Loss: -2.8901 | Val Sharpe: -0.199
+Epoch  78 | Train Loss: -2.8292 | Val Sharpe: 0.319
+Epoch  79 | Train Loss: -2.6902 | Val Sharpe: -0.063
+Epoch  80 | Train Loss: -2.8935 | Val Sharpe: -0.306
+Epoch  81 | Train Loss: -2.9106 | Val Sharpe: -0.393
+Epoch  82 | Train Loss: -2.6530 | Val Sharpe: 0.532
+Epoch  83 | Train Loss: -2.7677 | Val Sharpe: -0.023
+Epoch  84 | Train Loss: -2.6871 | Val Sharpe: 0.243
+Epoch  85 | Train Loss: -2.9501 | Val Sharpe: -0.062
+Epoch  86 | Train Loss: -2.8013 | Val Sharpe: 0.250
+Epoch  87 | Train Loss: -3.0595 | Val Sharpe: -0.235
+Epoch  88 | Train Loss: -2.8088 | Val Sharpe: 0.814
+  -> Best model saved.
+Epoch  89 | Train Loss: -2.5233 | Val Sharpe: 0.052
+Epoch  90 | Train Loss: -2.8047 | Val Sharpe: -0.345
+Epoch  91 | Train Loss: -3.0042 | Val Sharpe: -0.245
+Epoch  92 | Train Loss: -3.1142 | Val Sharpe: 0.044
+Epoch  93 | Train Loss: -2.7678 | Val Sharpe: 0.112
+Epoch  94 | Train Loss: -2.8539 | Val Sharpe: 0.176
+Epoch  95 | Train Loss: -2.9246 | Val Sharpe: 0.430
+Epoch  96 | Train Loss: -2.8729 | Val Sharpe: -0.388
+Epoch  97 | Train Loss: -3.1094 | Val Sharpe: -0.148
+Epoch  98 | Train Loss: -3.1092 | Val Sharpe: 0.104
+Epoch  99 | Train Loss: -3.1222 | Val Sharpe: 0.102
+Epoch 100 | Train Loss: -3.1675 | Val Sharpe: -0.240
+
+Test Sharpe: 0.620
+Max Drawdown: 0.2370
