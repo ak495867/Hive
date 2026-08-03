@@ -1,9 +1,7 @@
 # Hive: Zero-Shot Portfolio Engine
-<div align="center">
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license.md)
-[![Standalone OSS](https://img.shields.io/badge/Standalone%20OSS-GitHub-purple.svg)](https://github.com/ak495867)
-[![Author: ak495867](https://img.shields.io/badge/Author-ak495867-6200ea.svg)](https://github.com/ak495867)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/built%20with-PyTorch-EE4C2C.svg)](https://pytorch.org/)
 > *"Train on fear, trade on everything."*
 
 ## The Concept
