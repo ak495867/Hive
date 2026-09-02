@@ -4,6 +4,11 @@
 [![PyTorch](https://img.shields.io/badge/built%20with-PyTorch-EE4C2C.svg)](https://pytorch.org/)
 > *"Train on fear, trade on everything."*
 
+## Documentation
+
+- [Architecture](Docs/Architecture.md) — System architecture and design
+- [Mathematics](Docs/Math.md) — Mathematical foundations and formulations
+
 ## The Concept
 
 What if a model could learn universal market dynamics from just six volatility products, and then without seeing a single additional stock or crypto, construct a diversified, risk-controlled portfolio across 98 assets?
