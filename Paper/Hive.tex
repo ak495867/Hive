@@ -51,7 +51,7 @@
 \begin{abstract}
 \Hive{} is a differentiable multi-asset portfolio allocator that maps synchronized market-feature windows directly to a long-only allocation. Rather than fitting six independent asset predictors, the model maintains a shared bank of thirty latent strategy states for each asset. The strategies are arranged on a circular topology and interact through adaptive five-node neighborhoods. A leaky recurrent update combines the current feature embedding, a strategy-specific recurrent signal, and a multiplicative local coupling. Final strategy signals are locally aggregated, combined by a batch-contextual attention distribution, and converted into six portfolio weights by a temperature-scaled softmax.
 
-This paper gives the complete mathematical and implementation-grounded specification of the supplied model. It defines the four engineered features, expanding normalization, temporal alignment, ring indexing, local adaptive coupling, recurrent dynamics, strategy readout, global attention, portfolio construction, Sharpe-ratio optimization, concentration regularization, and evaluation statistics. The configured implementation uses six volatility-related assets, a twenty-day lookback, thirty strategies, hidden width thirty-two, temperature $T=0.1$, and batch size sixty-four. No empirical performance values are asserted because the supplied artifact contains code and a training procedure but no completed training logs. The result is therefore a reproducible research architecture and hypothesis, not evidence of a deployable trading edge.
+This paper gives the complete mathematical and implementation-grounded specification of the supplied model. It defines the four engineered features, expanding normalization, temporal alignment, ring indexing, local adaptive coupling, recurrent dynamics, strategy readout, global attention, portfolio construction, Sharpe-ratio optimization, concentration regularization, and evaluation statistics. The configured implementation uses six volatility-related assets, a twenty-day lookback, thirty strategies, hidden width thirty-two, temperature $T=0.1$, and batch size sixty-four. Archived training, zero-shot, and forward paper-trading results are reported, while their methodological limitations and execution assumptions are explicitly documented. The result is therefore a reproducible research architecture with preliminary empirical evidence, not evidence of a deployable trading edge.
 \end{abstract}
 
 \textbf{Keywords:} financial machine learning; portfolio allocation; recurrent neural networks; adaptive coupling; ring topology; Sharpe-ratio optimization; volatility products.
@@ -61,7 +61,14 @@ A portfolio allocator solves a different problem from a point forecaster. It mus
 
 The design is motivated by a population interpretation of latent strategies. Each strategy maintains a hidden state and has its own readout direction. Neighboring strategies interact locally, allowing related hypotheses to reinforce or suppress one another. The circular topology gives each strategy the same number of neighbors and removes boundary nodes. A global attention layer then selects a common mixture of latent strategy signals for the current batch context.
 
-This paper makes three contributions. First, it gives an exact mathematical description of the supplied implementation. Second, it identifies the model's information pathways: parameter sharing across assets, local interaction across strategies, temporal recurrence within each asset, and competition among assets at the portfolio head. Third, it documents methodological limitations, including batch-dependent Sharpe optimization, omitted trading costs, expanding normalization, and the absence of completed empirical logs.
+This paper makes three contributions. First, it gives an exact mathematical
+description of the supplied implementation. Second, it identifies the model's
+information pathways: parameter sharing across assets, local interaction across
+strategies, temporal recurrence within each asset, and competition among assets
+at the portfolio head. Third, it documents methodological limitations, including
+batch-dependent Sharpe optimization, omitted costs and market-impact effects,
+expanding normalization, stochastic execution assumptions, and the limited
+scope of the available empirical evaluation.
 
 \section{Problem Formulation}
 Let $A=6$ assets be indexed by $a\in\{1,\ldots,A\}$. Let $C_t^{(a)}>0$ denote the close of asset $a$ on day $t$. For each asset, \Hive{} receives a sequence of $L=20$ feature vectors of dimension $d_x=4$. A batch input has shape
